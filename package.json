@@ -1,0 +1,27 @@
+{
+  "name": "pokemonsacredash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psyclapped/pokemonSacredAsh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psyclapped/pokemonSacredAsh/issues"
+  },
+  "homepage": "https://github.com/Psyclapped/pokemonSacredAsh#readme",
+  "dependencies": {
+    "electron": "^24.3.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  }
+}
