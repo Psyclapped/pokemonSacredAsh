@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background: #333;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.game-container {
+  position: relative;
+  width: 480px;
+  height: 432px;
+  outline: 1px solid #fff;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}

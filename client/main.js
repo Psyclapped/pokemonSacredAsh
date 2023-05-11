@@ -7,7 +7,11 @@ let win;
 let socket;
 
 function createWindow() {
-  win = new BrowserWindow({ width: 800, height: 600 });
+  win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    autoHideMenuBar: true,
+  });
 
   win.loadURL(
     url.format({
